@@ -1,0 +1,47 @@
+.diretoria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.membro-card {
+    background-color: var(--surface);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.membro-foto {
+    width: 100%;
+    height: 500px;
+    background-color: var(--surface);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.membro-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+
+.membro-foto i {
+    color: var(--text-secondary);
+    width: 128px;
+    height: 128px;
+}
+
+.membro-info {
+    padding: 1.5rem;
+}
+
+.membro-cargo {
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.membro-nome {
+    color: var(--text);
+}

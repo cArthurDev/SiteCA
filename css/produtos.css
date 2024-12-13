@@ -1,0 +1,50 @@
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.produto-card {
+    background-color: var(--surface);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.produto-imagem {
+    background-color: var(--surface);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produto-imagem img { 
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* ou 'contain', conforme necessário */ }
+
+.produto-imagem i {
+    color: var(--text-secondary);
+    width: 48px;
+    height: 48px;
+}
+
+.produto-info {
+    padding: 1.5rem;
+}
+
+.produto-info h3 {
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.produto-info p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.produto-preco {
+    color: var(--primary);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

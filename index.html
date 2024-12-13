@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CACC - Centro Acadêmico de Ciência da Computação</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/diretoria.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="image/logo.png" alt="Logo" style="height: 90px;">
+        </div>
+        <button class="mobile-menu-btn">
+            <i data-lucide="menu"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home" class="active"><i data-lucide="home"></i>Início</a></li>
+            <li><a href="#cursos"><i data-lucide="graduation-cap"></i>Cursos</a></li>
+            <li><a href="#produtos"><i data-lucide="shopping-bag"></i>Produtos</a></li>
+            <li><a href="#diretoria"><i data-lucide="users"></i>Diretoria</a></li>
+            <li><a href="#patrocinadores"><i data-lucide="handshake"></i>Patrocinadores</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="container">
+                <h1>Centro Acadêmico de Ciência da Computação</h1>
+                <div class="about-ca">
+                    <h2>O que é um Centro Acadêmico?</h2>
+                    <p>O Centro Acadêmico é a entidade representativa dos estudantes de um curso de graduação. É um espaço democrático que promove a integração entre os alunos e atua como ponte entre o corpo discente e a instituição de ensino.</p>
+                </div>
+                <div class="features">
+                    <div class="feature-card">
+                        <i data-lucide="graduation-cap"></i>
+                        <h3>Formação Acadêmica</h3>
+                        <p>Promovemos eventos, workshops e cursos complementares.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i data-lucide="users"></i>
+                        <h3>Representação Estudantil</h3>
+                        <p>Somos a voz dos estudantes junto à coordenação.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i data-lucide="book-open"></i>
+                        <h3>Desenvolvimento</h3>
+                        <p>Incentivamos o desenvolvimento técnico e pessoal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cursos" class="section">
+            <div class="container">
+                <h2>Cursos Gratuitos</h2>
+                <div class="cursos-grid"></div>
+            </div>
+        </section>
+
+        <section id="produtos" class="section">
+            <div class="container">
+                <h2>Produtos CACC</h2>
+                <div class="produtos-grid"></div>
+            </div>
+        </section>
+
+        <section id="diretoria" class="section">
+            <div class="container">
+                <h2>Diretoria CACC</h2>
+                <div class="diretoria-grid"></div>
+            </div>
+        </section>
+
+        <section id="patrocinadores" class="section">
+            <div class="container">
+                <h2>Seja um Patrocinador</h2>
+                <p>Estamos em busca de parcerias para fortalecer nossa comunidade acadêmica.</p>
+                <a href="https://api.whatsapp.com/send?phone=5564992817769&text=Ol%C3%A1,%20Queria%20Ser%20Patrocinador%20do%20CACC" class="btn-primary">Entre em Contato</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/cursos.js"></script>
+    <script src="js/produtos.js"></script>
+    <script src="js/diretoria.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

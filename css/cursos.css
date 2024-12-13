@@ -1,0 +1,57 @@
+.cursos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.curso-categoria {
+    margin-bottom: 3rem;
+}
+
+.curso-categoria h3 {
+    color: var(--text);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.curso-card {
+    background-color: var(--surface);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    gap: 1rem;
+    text-align: center; /* Centraliza o texto */
+}
+
+.curso-card i {
+    color: var(--primary);
+    width: 64px; /* Aumenta o tamanho do ícone */
+    height: 64px; /* Aumenta o tamanho do ícone */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o ícone */
+}
+
+.curso-card h4 {
+    color: var(--text);
+}
+
+.curso-card p {
+    color: var(--text-secondary);
+    flex-grow: 1;
+}
+
+.curso-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.curso-imagem img {
+    width: 200px; /* Ajuste o tamanho da imagem */
+    height: 200px;
+    object-fit: contain; /* Garante que a imagem se ajuste corretamente */
+}
