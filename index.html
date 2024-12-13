@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/cursos.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/diretoria.css">
+    <link rel="stylesheet" href="css/patrocinadores.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
@@ -35,7 +36,7 @@
                 <h1>Centro Acadêmico de Ciência da Computação</h1>
                 <div class="about-ca">
                     <h2>O que é um Centro Acadêmico?</h2>
-                    <p>O Centro Acadêmico é a entidade representativa dos estudantes de um curso de graduação. É um espaço democrático que promove a integração entre os alunos e atua como ponte entre o corpo discente e a instituição de ensino.</p>
+                    <p>O Centro Acadêmico de Ciência da Computação, é uma associação sem fins lucrativos criada no ano de 2017 no IF Goiano campus Morrinhos, cabendo assim representar os estudantes do curso de Ciência da Computação dentro e fora da universidade, promovendo eventos, palestras e diversas outras atividades que possam ajudar o estudante a se sentir acolhido por todos.</p>
                 </div>
                 <div class="features">
                     <div class="feature-card">
@@ -54,9 +55,25 @@
                         <p>Incentivamos o desenvolvimento técnico e pessoal.</p>
                     </div>
                 </div>
+                <!-- Adicione a galeria de imagens aqui -->
+                <div class="gallery-vertical">
+                    <div class="feature-card">
+                        <i data-lucide="house"></i>
+                        <h3>Sala CACC</h3>
+                        <p>Confira agora como foi a evolução da nossa Sala de Reunião/Lazer</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="imagens/foto1.png" alt="Espaço 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="imagens/foto2.png" alt="Espaço 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="imagens/foto3.png" alt="Espaço 3">
+                    </div>
+                </div>
             </div>
-        </section>
-
+        </section>        
         <section id="cursos" class="section">
             <div class="container">
                 <h2>Cursos Gratuitos</h2>
@@ -80,13 +97,13 @@
 
         <section id="patrocinadores" class="section">
             <div class="container">
-                <h2>Seja um Patrocinador</h2>
-                <p>Estamos em busca de parcerias para fortalecer nossa comunidade acadêmica.</p>
-                <a href="https://api.whatsapp.com/send?phone=5564992817769&text=Ol%C3%A1,%20Queria%20Ser%20Patrocinador%20do%20CACC" class="btn-primary">Entre em Contato</a>
+                <h2>Nossos Patrocinadores</h2>
+                <div class="patrocinadores-grid"></div>
             </div>
-        </section>
+        </section>        
     </main>
 
+    <script src="js/patrocinadores.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/cursos.js"></script>
     <script src="js/produtos.js"></script>

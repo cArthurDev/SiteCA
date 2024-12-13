@@ -4,21 +4,21 @@ const produtos = [
         nome: "Camiseta CACC",
         preco: "R$ 65,00",
         descricao: "Camiseta oficial do Centro Acadêmico",
-        imagem: "camiseta.jpg",
+        imagem: "camisa.png",
         link: "https://api.whatsapp.com/send?phone=5564992817769&text=Ol%C3%A1,%20Queria%20Adquirir%20uma%20Camiseta%20do%20CACC"
     },
     {
-        nome: "Caneca CACC",
-        preco: "R$ 40,00",
+        nome: "Caneca CACC - EM BREVE",
+        preco: "R$ ??.??",
         descricao: "Caneca personalizada",
-        imagem: "caneca.jpg",
+        imagem: "caneca.png",
         link: "https://api.whatsapp.com/send?phone=5564992817769&text=Ol%C3%A1,%20Queria%20Adquirir%20uma%20Caneca%20do%20CACC"
     },
     {
         nome: "Bottons",
         preco: "R$ 10,00",
         descricao: "Botton do CACC",
-        imagem: "botton.jpg",
+        imagem: "botton.png",
         link: "https://api.whatsapp.com/send?phone=5564992817769&text=Ol%C3%A1,%20Queria%20Adquirir%20um%20Botton%20do%20CACC"
     }
 ];

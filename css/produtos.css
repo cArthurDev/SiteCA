@@ -12,7 +12,7 @@
 
 .produto-imagem {
     background-color: var(--surface);
-    height: 300px;
+    height: 380px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,12 +20,13 @@
 .produto-imagem img { 
     width: 100%;
     height: 100%;
-    object-fit: contain; /* ou 'contain', conforme necessário */ }
+    object-fit: contain; 
+}
 
 .produto-imagem i {
     color: var(--text-secondary);
-    width: 48px;
-    height: 48px;
+    width: 3000px;
+    height: 3000px;
 }
 
 .produto-info {

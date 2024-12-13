@@ -35,3 +35,43 @@
 .feature-card p {
     color: var(--text-secondary);
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+
+.gallery-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Espaço entre as imagens */
+    margin-top: 3rem;
+}
+
+.gallery-item img {
+    width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+    max-height: 500px; /* Define uma altura máxima para manter a proporção */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras leves */
+    transition: transform 0.3s ease-in-out; /* Efeito ao passar o mouse */
+}
+
+.gallery-item img:hover {
+    transform: scale(1.02); /* Pequeno zoom ao passar o mouse */
+}
