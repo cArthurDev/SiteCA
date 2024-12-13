@@ -1,12 +1,17 @@
+// const patrocinadores = [
+//    {
+//        nome: "Spaço Agrícola",
+//        descricao: "Líder no mercado de tecnologia e inovação no Agronegócio.",
+//        imagem: "imagens/empresa1.png",
+//        instagram: "https://www.instagram.com/spacoagricola_/",
+//        site: "https://www.spacoagricola.com.br/home/"
+//    },
+//];
+
 const patrocinadores = [
-    {
-        nome: "Spaço Agrícola",
-        descricao: "Líder no mercado de tecnologia e inovação no Agronegócio.",
-        imagem: "imagens/empresa1.png",
-        instagram: "https://www.instagram.com/spacoagricola_/",
-        site: "https://www.spacoagricola.com.br/home/"
-    },
 ];
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const patrocinadoresContainer = document.querySelector('.patrocinadores-grid');
